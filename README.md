@@ -1,6 +1,10 @@
 
 
-https://github.com/UladL/Tic-tac-toe/assets/151393410/ca21dfb6-376d-42c5-b68e-b5fe4f6986dc
+
+https://github.com/UladL/Tic-tac-toe/assets/151393410/9ec1889f-58ba-439e-b0bf-7df527bc7110
+
+
+
 
 - Rules:
   You need to match three X or 0 in the row but each player takes turns. Also your gonna need a friend.
