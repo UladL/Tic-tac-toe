@@ -7,13 +7,21 @@ main{
     align-items: center;
 }
 
+body {
+    background-image: url(tic-tac-toe-seamless-background-on-dark-blue-illustration-vector.jpg);
+  }
 
-
+.Text{
+color: white;
+}
+.TextWin{
+    color: white;
+}
 .blockWho{
     padding: 25px;
 }
 #spanWho{
-    color: rgb(116, 246, 116);
+    color: rgb(255, 255, 255);
     font-weight: 600;
     font-size: 24px;
 }
@@ -46,14 +54,14 @@ main{
 
 
 .krest{
-    color: rgb(135, 220, 250);
+    color: rgb(255, 0, 0);
     font-size: 38px;
     align-items: center;
     display: flex;
     justify-content: center;
 }
 .circle{
-    color: rgb(148, 255, 124);
+    color: rgb(25, 0, 255);
     font-size: 38px;
     align-items: center;
     display: flex;
@@ -61,7 +69,7 @@ main{
 }
 
  .winColor{
-    color: rgb(21, 168, 21);
+    color: rgb(187, 0, 255);
     background: gold;
     font-size: 50px;
     font-weight: 900;
@@ -80,17 +88,26 @@ main{
 
  #spanWin{
     font-size: 24px;
-    color: rgb(0, 21, 255);
+    color: rgb(255, 255, 255);
 }
 .btnNewGame{
-    padding: 12px;
-    background: rgb(55, 196, 55);
-    border-radius: 12px;
-    color: white;
-    font-weight: 600;
+    padding: 24px;
+    background: rgb(247, 0, 255);
+    border-radius: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: 750;
     text-align: center;
     cursor: pointer;
 }
 .btnNewGame:hover{
-    background: rgb(82, 229, 82);
+    background: rgb(215, 65, 241);
+}
+.text1{
+   padding-left: 350px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 60px;
+    font-size: 72px;
+    color: rgb(204, 16, 16);
+    font-weight: 900;
+    transform: rotate(-10deg);
 }

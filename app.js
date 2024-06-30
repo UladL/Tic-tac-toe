@@ -6,10 +6,10 @@ let winner = ""
 const who =()=>{
     if (step == 'circle'){
         step = 'krest';
-        spanWho.innerText = 'Крестики'
+        spanWho.innerText = 'X'
     } else {
         step = 'circle'
-        spanWho.innerText = 'Нулики'
+        spanWho.innerText = '0'
    }
 }
 who()
@@ -57,7 +57,7 @@ let circleWin = ()=>{
             blockItem[win[i][0]].classList.add('winColor')
             blockItem[win[i][1]].classList.add('winColor')
             blockItem[win[i][2]].classList.add('winColor')
-            winner = "Нулики"
+            winner = " 0!"
             endGame(winner)
             return 1
     }
@@ -74,7 +74,7 @@ let krestWin = ()=>{
             blockItem[win[i][0]].classList.add('winColor')
             blockItem[win[i][1]].classList.add('winColor')
             blockItem[win[i][2]].classList.add('winColor')
-            winner = "Крестики"
+            winner = " X!"
             endGame(winner)
             return 1
     }
@@ -83,7 +83,7 @@ let krestWin = ()=>{
 
 let noWin = () =>{
     if (!krestWin() && !circleWin() && (counter >=9)){
-        winner = "Ничья"
+        winner = "Tie!"
         endGame(winner)
     }
 }
